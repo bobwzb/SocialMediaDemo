@@ -35,7 +35,7 @@ public class AddContent : MonoBehaviour
     {
         for(int i = 0; i < posts.Count; i++)
         {
-
+            posts[i].GetComponent<Post>().createContent(postList[i].id, postList[i].Name, postList[i].image, postList[i].text);
         }
     }
     // Update is called once per frame

@@ -20,7 +20,7 @@ public class image : MonoBehaviour
     void Update()
     {
         Vector3 pos = this.GetComponent<RectTransform>().localPosition;
-        this.GetComponent<RectTransform>().localPosition = Vector3.MoveTowards(pos, new Vector3(0, 0, 0), 4);
+        this.GetComponent<RectTransform>().localPosition = Vector3.MoveTowards(pos, new Vector3(0, 0, 0), 5);
     }
     public void click()
     {

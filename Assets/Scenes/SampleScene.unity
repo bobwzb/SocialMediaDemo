@@ -404,7 +404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 62621576cae79144ebd11f26b0aa9592, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4393377760869304c892d30b8cdd2d1b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -491,7 +491,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Music is the medicine of a troubled mind.
+  m_Text: I think; therefore, I am.
 --- !u!222 &88080049
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -631,6 +631,7 @@ GameObject:
   - component: {fileID: 146810979}
   - component: {fileID: 146810981}
   - component: {fileID: 146810980}
+  - component: {fileID: 146810982}
   m_Layer: 5
   m_Name: Daliy04
   m_TagString: Untagged
@@ -698,6 +699,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146810978}
   m_CullTransparentMesh: 0
+--- !u!114 &146810982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146810978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982bc7d8d3663b741b1a0cbca9c344d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: {fileID: 1204341069}
+  Name: {fileID: 1598906381}
+  image: {fileID: 2121980883}
+  text: {fileID: 1820067927}
 --- !u!1 &180542502
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,7 +820,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5C39\u4F0A"
+  m_Text: xxx
 --- !u!222 &280073528
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1125,6 +1142,7 @@ GameObject:
   - component: {fileID: 336830551}
   - component: {fileID: 336830553}
   - component: {fileID: 336830552}
+  - component: {fileID: 336830554}
   m_Layer: 5
   m_Name: Daliy03
   m_TagString: Untagged
@@ -1192,6 +1210,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336830550}
   m_CullTransparentMesh: 0
+--- !u!114 &336830554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336830550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982bc7d8d3663b741b1a0cbca9c344d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: {fileID: 1219241352}
+  Name: {fileID: 280073525}
+  image: {fileID: 1873817866}
+  text: {fileID: 713134344}
 --- !u!1 &361039361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,7 +1427,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7346320caeac6794399273a41a2e4f4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 388f311a6684442498f3a440ff18496f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1974,7 +2008,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' What is rational is actual and what is actual is rational.'
+  m_Text: I think; therefore, I am.
 --- !u!222 &713134347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2031,6 +2065,7 @@ GameObject:
   - component: {fileID: 792745156}
   - component: {fileID: 792745158}
   - component: {fileID: 792745157}
+  - component: {fileID: 792745159}
   m_Layer: 5
   m_Name: Daliy01
   m_TagString: Untagged
@@ -2098,6 +2133,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792745155}
   m_CullTransparentMesh: 0
+--- !u!114 &792745159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792745155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982bc7d8d3663b741b1a0cbca9c344d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: {fileID: 1524536185}
+  Name: {fileID: 2120075627}
+  image: {fileID: 1707280065}
+  text: {fileID: 33730716}
 --- !u!1 &806186366
 GameObject:
   m_ObjectHideFlags: 0
@@ -2661,6 +2712,7 @@ GameObject:
   - component: {fileID: 1135199382}
   - component: {fileID: 1135199384}
   - component: {fileID: 1135199383}
+  - component: {fileID: 1135199385}
   m_Layer: 5
   m_Name: Daliy02
   m_TagString: Untagged
@@ -2728,6 +2780,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135199381}
   m_CullTransparentMesh: 0
+--- !u!114 &1135199385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135199381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982bc7d8d3663b741b1a0cbca9c344d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: {fileID: 44588212}
+  Name: {fileID: 2054144962}
+  image: {fileID: 417929069}
+  text: {fileID: 88080046}
 --- !u!1 &1166694659
 GameObject:
   m_ObjectHideFlags: 0
@@ -3188,7 +3256,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: be0f1eb795b1e9e428dec385b578c6f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4393377760869304c892d30b8cdd2d1b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3341,7 +3409,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fea8f4d4579bec84683abedba9dfacd7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4393377760869304c892d30b8cdd2d1b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4299,7 +4367,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u51AF\u5E06"
+  m_Text: xxx
 --- !u!222 &1598906384
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4566,7 +4634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c730b6c8b2f084a40a3d83a102e22670, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 388f311a6684442498f3a440ff18496f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5050,7 +5118,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Life is like an ocean. Only the strong willed can reach the other shore.
+  m_Text: I think; therefore, I am.
 --- !u!222 &1820067930
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5553,7 +5621,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5218\u97EC"
+  m_Text: xxx
 --- !u!222 &2054144965
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5631,7 +5699,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9189\u4ED9\u671B\u6708"
+  m_Text: xxx
 --- !u!222 &2120075630
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5767,7 +5835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70f722c99778057458da0884944f6af4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 388f311a6684442498f3a440ff18496f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
