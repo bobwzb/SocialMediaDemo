@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Image : MonoBehaviour
+public class image : MonoBehaviour
 {
     // Start is called before the first frame update
     bool isShow = false;
@@ -20,7 +20,7 @@ public class Image : MonoBehaviour
     void Update()
     {
         Vector3 pos = this.GetComponent<RectTransform>().localPosition;
-        this.GetComponent<RectTransform>().localPosition = Vector3.MoveTowards(pos, new Vector3(0, 0, 0), 6);
+        this.GetComponent<RectTransform>().localPosition = Vector3.MoveTowards(pos, new Vector3(0, 0, 0), 4);
     }
     public void click()
     {
@@ -40,7 +40,7 @@ public class Image : MonoBehaviour
         panel.gameObject.SetActive(true);
         this.transform.SetParent(canvas.transform);
         Vector3 tmp = this.GetComponent<RectTransform>().localScale;
-        this.GetComponent<RectTransform>().localScale = new Vector3(tmp.x + 0.12f, tmp.y + 0.12f, tmp.z);
+        this.GetComponent<RectTransform>().localScale = new Vector3(tmp.x + 0.16f, tmp.y + 0.16f, tmp.z);
         if (tmp.x + 0.01f >= 6.7f) { CancelInvoke(); panel.gameObject.SetActive(true); }
         }
     void Hide()
@@ -48,7 +48,7 @@ public class Image : MonoBehaviour
         panel.gameObject.SetActive(false);
         this.transform.SetParent(oringalFather.transform);
         Vector3 tmp = this.GetComponent<RectTransform>().localScale;
-        this.GetComponent<RectTransform>().localScale = new Vector3(tmp.x - 0.12f, tmp.y - 0.12f, tmp.z);
+        this.GetComponent<RectTransform>().localScale = new Vector3(tmp.x - 0.16f, tmp.y - 0.16f, tmp.z);
         if (tmp.x - 0.01f <= 2.6f) { CancelInvoke(); panel.gameObject.SetActive(false); }
     }
 }
